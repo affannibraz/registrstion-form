@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rf1 img {
+    height: 99vh;
+    width: 100%;
+    /* background-image: url(back\ ground/); */
+}
+
+.box1 {
+    border: 2px solid rgb(26 69 123);
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    top: 20px;
+    margin-top: 2.7%;
+    left: 9.5%;
+    box-shadow: 5px 5px 5px 5px;
+    padding-left: 5%;
+}
+
+.box1 h1 {
+    color: aliceblue;
+    font-size: 1cm;
+    position: absolute;
+    top: 25%;
+    /* padding-top: 15%; */
+    font-family: "Aldrich", sans-serif;
+}
+
+.box1 p {
+    font-size: 9px;
+    /* font-family: "PT Serif", serif; */
+    font-family: "Poppins", sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 38%;
+}
+
+.box1 button {
+    width: 15%;
+    height: 30px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 15%;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(155, 66, 149);    /* font-family: "Aldrich", sans-serif; */
+    /* font-family: "Merriweather", serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+    /* color: aqua; */
+    background-color:rgb(116 55 112);
+}
+
+.box2 {
+    border: 2px solid rgb(255, 252, 252);
+    height: 70%;
+    width: 35%;
+    position: absolute;
+    left: 60%;
+    margin-top: 8%;
+    background-color: rgba(84, 93, 102, 0.349);
+    border: none;
+    padding: 6%;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: small;
+    line-height: 0.5rem;
+}
+
+.box2 h3 {
+    position: absolute;
+    right: 34%;
+    top: 5%;
+    padding-top: 15px;
+    color: white;
+    font-size: 7vh;
+}
+
+.index1 h5 {
+    position: absolute;
+    top: 33%;
+    border-radius: 14px;
+}
+
+.button2 {
+    position: absolute;
+    top: 40%;
+    font-size: 12px;
+}
+
+.index2 {
+    position: absolute;
+    top: 53%;
+}
+
+.button3 {
+    position: absolute;
+    top: 60%;
+
+}
+
+.button4 button {
+    width: 170px;
+    height: 20px;
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.button2 ::placeholder {
+    font-size: 11px;
+}
+
+.button3 ::placeholder {
+    font-size: 11px;
+}
+
+.ICON {
+    position: absolute;
+    top: 90%;
+    display: flex;
+    padding-left: 20%;
+}
+
+.ICON1 {
+    position: absolute;
+    top: 90%;
+    display: flex;
+    padding-left: 30%;
+} 
+.ICON2 {
+    position: absolute;
+    top: 90%;
+    display: flex;
+    padding-left: 40%;
+}
+
+input {
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 10px;
+    text-align: center;
+    /* background: transparent; */
+    background-color: rgba(255, 255, 255, 0.164);
+    border: none;
+    height: 20px;
+    width: 170px;
+    color: white;
+
+}
